@@ -1,0 +1,24 @@
+{
+  "name": "daily_task",
+  "version": "1.0.0",
+  "description": "Some Daily Task Run in Linux",
+  "main": "alibaba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weimumu/Daily_Task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weimumu/Daily_Task/issues"
+  },
+  "homepage": "https://github.com/weimumu/Daily_Task#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "nodemailer": "^4.6.4"
+  }
+}
