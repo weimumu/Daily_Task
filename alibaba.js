@@ -46,7 +46,7 @@ async function test() {
     $('span.strong-new').each(async function (index, item) {
         if (index === 1) {
             console.log($(item).text())
-            if ($(item).text().indexOf('面试中') !== -1) {
+            if ($(item).text().indexOf('已回绝') !== -1) {
                 console.log(0)
             } else {
                 console.log(1)
